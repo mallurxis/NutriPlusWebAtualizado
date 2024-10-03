@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+body{
+    background-color: #e7f0dc;
+}
+.cabecalho{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.imgNutri{
+    display: flex;
+  
+   
+}
+.txtPagina{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+
+    
+}
+.navHeader{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+.section--central{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding-left: 5rem;
+    justify-content: space-between;
+    font-size: 2rem;
+
+}
+.imgCelular{
+   width: 60rem;
+   height: 40rem;
+
+}
+.section--img{
+    display: flex;
+    padding-left: 5rem;
+    
+}
