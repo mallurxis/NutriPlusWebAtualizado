@@ -7,17 +7,22 @@ body{
     background-color: #e7f0dc;
 }
 .cabecalho{
-    background-color: green;
+    color:  #009140;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
+    align-items: center;
+    justify-content: center;
     
 }
 a{
     text-decoration: none;
-    color: white;
+    color: #009140;
+    font-size: 1.4rem;
 
+}
+a:hover{
+    opacity: .5;
+        
 }
 
 
@@ -26,18 +31,14 @@ a{
   
    
 }
-.txtPagina{
-    display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color: white;
 
-    
-}
 .navHeader{
     padding-top: 2rem;
     display: flex;
     flex-direction: row;
+    gap: 3rem;
+   
+   
    
 }
 .section--central{
@@ -56,6 +57,9 @@ a{
 }
 .section--img{
     display: flex;
-    padding-left: 5rem;
-    
+   align-items: end
+ 
+}
+.section--texto{
+    margin-top: 5rem;
 }
